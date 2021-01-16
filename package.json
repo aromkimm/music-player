@@ -1,0 +1,42 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "Local music file player",
+  "author": "aromkimm",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --inline --config config/webpack.dev.conf.js",
+    "build": "webpack --config config/webpack.prod.conf.js"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "bluebird": "^3.7.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+	"status": 200,
+	"count": 5,
+	"data": [
+		{
+			"songId": "11111",
+			"songUrl": "/mock/1_music.mp3",
+			"imageUrl": "/mock/1_img.jpg",
+			"title": "Brand New Day feat. Telltale",
+			"artist": "BACK ON EARTH",
+			"album": "Brand New Day"
+		},
+		{
+			"songId": "22222",
+			"songUrl": "/mock/2_music.mp3",
+			"imageUrl": "/mock/2_img.jpg",
+			"title": "Love-15",
+			"artist": "CARTER VAIL",
+			"album": "The Interstellar Tennis Championship"
+		},
+		{
+			"songId": "33333",
+			"songUrl": "/mock/3_music.mp3",
+			"imageUrl": "/mock/3_img.jpg",
+			"title": "Aching",
+			"artist": "ALLES",
+			"album": "Aching"
+		},
+		{
+			"songId": "44444",
+			"songUrl": "/mock/4_music.mp3",
+			"imageUrl": "/mock/4_img.jpg",
+			"title": "On Her Way",
+			"artist": "THE TANGERINE CLUB",
+			"album": "Old Fabric"
+		},
+		{
+			"songId": "55555",
+			"songUrl": "/mock/5_music.mp3",
+			"imageUrl": "/mock/5_img.jpg",
+			"title": "Oopsy Daisy",
+			"artist": "FORGET THE WHALE",
+			"album": "You. Me. Talk. Now."
+		}
+	],
+	"isEnd": true
+}

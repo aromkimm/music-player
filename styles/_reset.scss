@@ -1,0 +1,21 @@
+html, body, figure {    
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+button, button:link, button:visited, button:active, button:hover {
+  background: none;
+  border: 0;
+  outline: none;
+}
