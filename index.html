@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title>Music Player</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="main.4399ec416c1474b0cb9a.css" rel="stylesheet"></head>
+
+<body>
+<div id="app">
+  <div class="player">
+    <!-- 정보 영역 -->
+    <div class="player__info info">
+      <div class="info__cover"><img id="cover"></div>
+      <div class="info__title" id="title"></div>
+      <div class="info__artist" id="artist"></div>
+    </div>
+    <!-- 설정 영역 -->
+    <div class="player__setting setting">
+      <div class="setting__volume-box" id="volume-box" style="display: none;">
+        <button class="setting__button setting__button--small material-icons" id="volume-down">remove</button>
+        <input class="setting__bar" id="volume-bar" type="range" step="1" value="40" min="0" max="100">
+        <button class="setting__button setting__button--small material-icons" id="volume-up">add</button>
+      </div>
+      <div class="setting__button-box">
+        <button class="setting__button material-icons" id="repeat">repeat</button>
+        <button class="setting__button material-icons" id="volume">volume_up</button>
+        <button class="setting__button material-icons" id="shuffle">shuffle</button>
+      </div>
+    </div>
+    <!-- 프로그래스 영역 -->
+    <div class="player__progress progress">
+      <input class="progress__bar" id="bar" type="range" step="1" value="0" min="0" max="100">
+      <span class="progress__current" id="current">00:00</span>
+      <span class="progress__total" id="total">00:00</span>
+    </div>
+    <!-- 컨트롤러 영역 -->
+    <div class="player__controller controller">
+      <button class="controller__button material-icons" id="prev">skip_previous</button>
+      <button class="controller__button material-icons" id="play">play_arrow</button>
+      <button class="controller__button material-icons" id="pause">pause</button>
+      <button class="controller__button material-icons" id="next">skip_next</button>
+    </div>
+    <!-- 재생 목록 영역 -->
+    <ul class="list">
+      <li class="list__item"></li>
+      <li class="list__item"></li>
+      <li class="list__item"></li>
+      <li class="list__item"></li>
+      <li class="list__item"></li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript" src="main.4399ec416c1474b0cb9a.js"></script></body>
+
+</html>
